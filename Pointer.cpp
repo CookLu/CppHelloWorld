@@ -4,14 +4,14 @@ using namespace std;
 
 void main()
 {
-//	int *ptr_int;
+//  int *ptr_int;
 //  if(ptr_int == NULL)  //run fail. Ptr must be initialized
 //  {
 //      printf("un-initial ptr is NULL\n");
 //  }
 
 
-	int *ptr_int = NULL;
+    int *ptr_int = NULL;
 
     if(ptr_int == NULL)  
     {
@@ -27,8 +27,8 @@ void main()
     *(ptr_int + 1 ) = 2;
 
 
-	//可以运行，但是随机值
-	//It will not crash.
+    //可以运行，但是随机值
+    //It will not crash.
     int array1[2]= {0};
     printf("定义array1[2]= {0}，\n array1[20] = %d\n", array1[20]);
 
